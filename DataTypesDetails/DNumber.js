@@ -8,3 +8,12 @@ console.log(first1); // 123
 console.log(second1); // 14287
 console.log(third1); // 255
 console.log(fourth1); // 57 
+// valueOf()-returns the primitive value of the number.
+// This function returns the primitive value of the Object being called on.
+var num = new Number(123);
+console.log(num); //Output: a number object with value 123
+console.log(num.valueOf()); //Output: 123
+console.log(typeof num); //Output: object
+var num2 = num.valueOf();
+console.log(num2); //Output: 123
+console.log(typeof num2); //Output: number
