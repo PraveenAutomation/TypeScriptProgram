@@ -1,3 +1,4 @@
+
 // TypeScript supports number data type. All numbers are stored as floating point numbers.
 // These numbers can be Decimal (base 10), Hexadecimal (base 16) or Octal (base 8).
 var first1:number = 123; // number 
